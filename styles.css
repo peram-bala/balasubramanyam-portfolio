@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background: url('header-background.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: white;
+}
+.profile-container {
+    margin-top: -60px;
+}
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    transition: transform 0.3s;
+}
+.profile-image img:hover {
+    transform: scale(1.1);
+}
+.resume-btn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.resume-btn:hover {
+    background: #cc5200;
+}
